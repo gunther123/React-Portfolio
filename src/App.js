@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import About from './Components/About'
 import Nav from './Components/Nav';
-// import Page from './components/Page';
+import Page from './Components/Page'
 
 function App() {
   const [page] = useState([
@@ -31,7 +30,7 @@ function App() {
       >
       </Nav>
       <main>
-        <About></About>
+      <Page currentPage={currentPage}></Page>
       </main>
     </div>
   );
