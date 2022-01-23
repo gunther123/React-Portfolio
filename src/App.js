@@ -4,7 +4,7 @@ import Nav from './Components/Nav';
 // import Page from './components/Page';
 
 function App() {
-  const [pages] = useState([
+  const [page] = useState([
     {
       name: "About Me"
     },
@@ -19,13 +19,13 @@ function App() {
     }
   ])
 
-  const [currentPage, setCurrentPage] = useState(pages[0])
+  const [currentPage, setCurrentPage] = useState(page[0])
 
   return (
     <div className="App">
       
       <Nav 
-        pages={pages}
+        page={page}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
       >
