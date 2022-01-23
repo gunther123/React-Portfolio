@@ -23,9 +23,16 @@ function App() {
 
   return (
     <div className="App">
-      <Nav></Nav>
-      <About></About>
-
+      
+      <Nav 
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      >
+      </Nav>
+      <main>
+        <About></About>
+      </main>
     </div>
   );
 }
