@@ -1,10 +1,24 @@
 import React from 'react';
+import { Container, Form, Button } from 'react-bootstrap';
 
 function Contact() {
     return (
-        <div>
-            <section> Test 3! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut consectetur nam aliquam, magni tempore iusto dolor a voluptate ullam vel dignissimos commodi ex nisi debitis fuga? Dolorem vel assumenda doloremque?</section>
-        </div>
+        <Container>
+            <Form>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label>Email address</Form.Label>
+                    <Form.Control type="email" placeholder="Enter email" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                    <Form.Label>Leave me a message:</Form.Label>
+                    <Form.Control placeholder="Enter messege..." as="textarea" rows={3} />
+                </Form.Group>
+                <Button variant="primary" type="submit">
+                    Submit
+                </Button>
+            </Form>
+        </Container>
     );
 }
 
