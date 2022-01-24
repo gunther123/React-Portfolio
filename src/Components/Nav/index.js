@@ -16,7 +16,7 @@ function Navigation(props) {
                     <Nav className="ml-auto">
                     {page.map((page) => (
                             <Nav.Link key={page.name}>
-                                <span onClick={() => { console.log(page); setCurrentPage(page); }}>{page.name}</span>
+                                <span onClick={() => { setCurrentPage(page); }}>{page.name}</span>
                             </Nav.Link>
                         ))}
                     </Nav>
