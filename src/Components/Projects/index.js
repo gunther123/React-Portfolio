@@ -1,6 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import wanderPhoto from './assets/Wander2.png'
+import wanderPhoto from './assets/Wander2.png';
+import pwPhoto from "./assets/password-generator.png";
+import rbPhoto from "./assets/run-buddy.png";
+import btPhoto from "./assets/budget-tracker.PNG";
+import tPhoto from "./assets/tennant.png"
+import ntPhoto from "./assets/note-taker.png"
 import { Card, Container, Row, Col } from 'react-bootstrap';
 
 function Projects() {
@@ -21,9 +26,9 @@ function Projects() {
                 </Col>
                 <Col className='m-auto'>
                     <Card className="bg-dark text-white">
-                            <Card.Img src="https://place-hold.it/350x350" alt="Card image" />
+                            <Card.Img src={tPhoto} alt="Card image" />
                                 <Card.ImgOverlay>
-                                <Card.Title>Tenant</Card.Title>
+                                <Card.Title>Tennant</Card.Title>
                                 <Card.Text>
                                 <a className='font-weight-bold text-dark' href='https://tennant-webapp-2.herokuapp.com/'>Deployed URL</a>
                                     </Card.Text>
@@ -33,7 +38,7 @@ function Projects() {
                 </Col>
                 <Col className='m-auto'>
                 <Card className="bg-dark text-white">
-                        <Card.Img src="https://place-hold.it/350x350" alt="Card image" />
+                        <Card.Img src={rbPhoto} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Run Buddy</Card.Title>
                                 <Card.Text>
@@ -47,7 +52,7 @@ function Projects() {
             <Row className='m-4'>
                 <Col className='m-auto'>
                 <Card className="bg-dark text-white">
-                        <Card.Img src="https://place-hold.it/350x350" alt="Card image" />
+                        <Card.Img src={pwPhoto} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Password Generator</Card.Title>
                                 <Card.Text>
@@ -59,7 +64,7 @@ function Projects() {
                 </Col>
                 <Col className='m-auto'>
                 <Card className="bg-dark text-white">
-                        <Card.Img src="https://place-hold.it/350x350" alt="Card image" />
+                        <Card.Img src={ntPhoto} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Note Taker</Card.Title>
                                 <Card.Text>
@@ -71,7 +76,7 @@ function Projects() {
                 </Col>
                 <Col className='m-auto'>
                 <Card className="bg-dark text-white">
-                        <Card.Img src="https://place-hold.it/350x350" alt="Card image" />
+                        <Card.Img src={btPhoto} alt="Card image" />
                             <Card.ImgOverlay>
                                 <Card.Title>Budget Tracker</Card.Title>
                                     <Card.Text>
