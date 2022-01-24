@@ -33,7 +33,7 @@ function Projects() {
                     </Card>
                 </Col>
             </Row>
-            <Row className='m-4'>
+            <Row className=''>
                 <Col className='m-auto'>
                 <Card className="bg-dark text-white">
                         <Card.Img src="https://place-hold.it/350x350" alt="Card image" />

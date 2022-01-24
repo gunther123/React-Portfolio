@@ -4,6 +4,8 @@ import ContactMe from "../Contact";
 import Projects from "../Projects";
 import Resume from "../Resume";
 import PageContent from "../PageContent";
+import 'bootstrap/dist/css/bootstrap.css';
+import { Col, Container, Row } from 'react-bootstrap';
 
 function Page({ currentPage }) {
     const renderPage = () => {
@@ -21,8 +23,8 @@ function Page({ currentPage }) {
         }
     }
     return (
-        <div>
-            <h2>{currentPage.name}</h2>
+        <div className="d-flex flex-column align-items-center">
+            <h2 className="h3 m-4">{currentPage.name}</h2>
             <PageContent>{renderPage()}</PageContent>
         </div>
     )
