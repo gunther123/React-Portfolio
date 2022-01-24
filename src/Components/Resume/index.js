@@ -1,9 +1,10 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Resume() {
     return (
-        <div>
-            <section> Test 4! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut consectetur nam aliquam, magni tempore iusto dolor a voluptate ullam vel dignissimos commodi ex nisi debitis fuga? Dolorem vel assumenda doloremque?</section>
+        <div className='d-flex flex-column align-items-center'>
+            <a className='h4 font-weight-bolder text-dark' href='https://drive.google.com/file/d/1Ptz_L7wirCBk75QSXuiHDU3AwA0PBlxM/view?usp=sharing'>Download My Resume Here!</a>
         </div>
     );
 }
