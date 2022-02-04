@@ -40,7 +40,7 @@ function Projects() {
                 <Card className="bg-dark text-white">
                         <Card.Img src={rbPhoto} alt="Card image" />
                             <Card.ImgOverlay>
-                                <Card.Title>Run Buddy</Card.Title>
+                                <Card.Title>Resolution</Card.Title>
                                 <Card.Text>
                                 <a className='font-weight-bold text-dark' href='https://resolution123456.herokuapp.com/'>Deployed URL</a>
                                     </Card.Text>
