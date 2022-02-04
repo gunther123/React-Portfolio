@@ -42,9 +42,9 @@ function Projects() {
                             <Card.ImgOverlay>
                                 <Card.Title>Run Buddy</Card.Title>
                                 <Card.Text>
-                                <a className='font-weight-bold text-dark' href='https://gunther123.github.io/run-buddy/'>Deployed URL</a>
+                                <a className='font-weight-bold text-dark' href='https://resolution123456.herokuapp.com/'>Deployed URL</a>
                                     </Card.Text>
-                                    <Card.Text><a className='font-weight-bold text-dark' href='https://github.com/gunther123/run-buddy'>Github Repo</a></Card.Text>
+                                    <Card.Text><a className='font-weight-bold text-dark' href='https://github.com/adamjflynn/re-solution'>Github Repo</a></Card.Text>
                             </Card.ImgOverlay>
                     </Card>
                 </Col>
